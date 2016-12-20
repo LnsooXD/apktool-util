@@ -1,0 +1,4 @@
+#!/bin/sh
+
+jarsigner -verbose -keystore ~/.android/debug.keystore -storepass android -signedjar "$2" "$1" androiddebugkey
+
